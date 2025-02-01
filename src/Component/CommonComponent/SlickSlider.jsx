@@ -2,6 +2,7 @@ import React from 'react'
 import Slider from "react-slick";
 import StockImage from './StockImage.jpg'
 import StockImage2 from "./StockImage2.jpg";
+import SrockImage3 from "./SrockImage3.jpg";
 import { MdNavigateNext } from 'react-icons/md';
 import { GrFormPrevious } from 'react-icons/gr';
 
@@ -14,23 +15,25 @@ const SlickSlider = () => {
           className={className}
           style={{
             ...style,
-              color: '#fff',
-              position: "absolute",
-              top: "5%",
-        left: "px",
-            background: "red",
-        
-            width: "40px",
-            height: "40px",
-            borderRadius : '50%',
-              display: 'flex',
-              justifyContent: 'center',
-           alignItems: ' center'
-          
+            color: "#fff",
+            position: "absolute",
+            top: "5%",
+            left: "0",
+
+            width: "46px",
+            height: "38px",
+            borderTopRightRadius: "30px",
+            borderBottomRightRadius: "30px",
+
+            display: "flex",
+            justifyContent: "center",
+            alignItems: " center",
           }}
           onClick={onClick}
         >
-          <MdNavigateNext />
+          <div className="ItemHandle2 w-full h-full text-white">
+            <MdNavigateNext />
+          </div>
         </div>
       );
     }
@@ -44,28 +47,25 @@ const SlickSlider = () => {
             ...style,
             position: "absolute",
             top: "5%",
-            left: "-40px",
+            left: "-46px",
 
-            background: "green",
+            width: "46px",
+            height: "38px",
 
-            width: "40px",
-            height: "40px",
-            borderRadius: "50%",
-            display: "flex",
-            justifyContent: "center",
-              alignItems: " center",
-            zIndex: '3'
+            zIndex: "3",
           }}
           onClick={onClick}
         >
-          <GrFormPrevious />
+          <div className=" w-full h-full ItemHandle text-white">
+            <GrFormPrevious />
+          </div>
         </div>
       );
     }
     const settings = {
       dots: false,
       infinite: true,
-      speed: 500,
+      speed: 300,
       slidesToShow: 1,
       slidesToScroll: 1,
       nextArrow: <SampleNextArrow />,
@@ -75,24 +75,33 @@ const SlickSlider = () => {
     <>
       {" "}
       <div className="containers">
-        <div className="wrapper flex justify-center items-center pt-[100px] pb-[100px]">
-          <div className="slider-container w-[200px] h-[200px] ">
+        <div className="wrapper flex justify-center items-center pt-[100px] pb-[100px] drop-shadow-lg ">
+          <div className="slider-container w-[500px] h-[500px] rounded-md ">
             <Slider {...settings}>
-              <div className="w-[200px] h-[200px]">
+              <div className="w-[500px] h-[500px] rounded-md ">
                 <picture>
                   <img
                     src={StockImage}
                     alt={StockImage}
-                    className="w-[200px] h-[200px]"
+                    className="w-[500px] h-[500px] rounded-md"
                   />
                 </picture>
               </div>
-              <div>
+              <div className="w-[500px] h-[500px] rounded-md">
                 <picture>
                   <img
                     src={StockImage2}
                     alt={StockImage2}
-                    className="w-[200px] h-[200px]"
+                    className="w-[500px] h-[500px] rounded-md"
+                  />
+                </picture>
+              </div>
+              <div className="w-[500px] h-[500px]">
+                <picture>
+                  <img
+                    src={SrockImage3}
+                    alt={SrockImage3}
+                    className="w-[500px] h-[500px] rounded-md"
                   />
                 </picture>
               </div>

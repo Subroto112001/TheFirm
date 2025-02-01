@@ -53,6 +53,45 @@
         -ms-transition: all linear 0.2s;
         -o-transition: all linear 0.2s;
    }
+   .ItemHandle{
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #facb1096;
+            transition: all linear 0.2s ;
+            -webkit-transition: all linear 0.2s ;
+            -moz-transition: all linear 0.2s ;
+            -ms-transition: all linear 0.2s ;
+            -o-transition: all linear 0.2s ;
+}
+   .ItemHandle:hover{
+    background-color: #facb10
+   }
+   
+   .ItemHandle2:hover{
+background-color: #facb10
+   }
+   .ItemHandle2{
+     border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #facb1096;
+            transition: all linear 0.2s ;
+            -webkit-transition: all linear 0.2s ;
+            -moz-transition: all linear 0.2s ;
+            -ms-transition: all linear 0.2s ;
+            -o-transition: all linear 0.2s ;
+   }
+   .BosShadowCus{
+    -webkit-box-shadow: 0px 0px 34px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 34px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 34px 0px rgba(0,0,0,0.75);
+
+   }
    
 }
 
