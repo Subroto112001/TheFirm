@@ -10,7 +10,7 @@
     --nunito:  "Nunito", serif;;
     --White:  #fff;;
 }
-.container{
+.containers{
     max-width: 1177px;
     margin: 0 auto;
 

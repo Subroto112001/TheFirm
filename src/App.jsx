@@ -5,14 +5,21 @@ import Header from "./Component/Header";
 import Banner from "./Component/Banner";
 import PartnerArea from "./Component/PartnerArea";
 import "slick-carousel/slick/slick.css";
-
+import Frustration from "./Component/Frustration";
+import PerfectSolution from "./Component/PerfectSolution"
+import OurReasearc from "./Component/OurReasearc";
+import SlickSlider from "./Component/CommonComponent/SlickSlider";
 const App = () => {
   return (
-    <div>
+    <>
       <Header />
       <Banner />
-      <PartnerArea/>
-    </div>
+      <PartnerArea />
+      <Frustration />
+      <PerfectSolution />
+      <OurReasearc />
+      <SlickSlider />
+    </>
   );
 };
 

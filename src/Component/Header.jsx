@@ -26,7 +26,7 @@ const Header = () => {
     ]
   return (
     <>
-      <div className="container">
+      <div className="containers">
         <div className="flex items-center justify-between">
           <div className="mt-[24px]">
             <picture>

@@ -4,7 +4,7 @@ import BannerUpper from'../assets/BannerUpper.png'
 const Banner = () => {
   return (
     <div className="bg-bannerBackImage bg-cover bg-center bg-no-repeat relative z-10 after:top-0 after:left-0 after:absolute after:content-[''] after:w-full after:h-full after:bg-[#f9fafaee] after:-z-10">
-      <div className="container">
+      <div className="containers">
         <div className="pt-[170px] pb-[170px] flex relative">
           <div className="w-[60%] flex flex-col gap-y-[30px] z-10">
             <h1 className="text-[48px] font-black leading-[133.4%] font-Nunito">

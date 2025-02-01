@@ -11,12 +11,12 @@ const PartnerArea = () => {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 3,
       };
   return (
     <>
-      <div className="container">
+      <div className="containers">
         <div className="pt-[100px] pb-[100px]">
           <OurHeading
             StyleName={
@@ -28,6 +28,9 @@ const PartnerArea = () => {
 
           <div className="slider-container items-center justify-center">
             <Slider {...settings}>
+
+              
+
               <div className="w-28 h-30">
                 <picture>
                   <img src={Windows} alt={Windows} />
