@@ -75,8 +75,8 @@ const SlickSlider = () => {
     <>
       {" "}
       <div className="containers">
-        <div className="wrapper flex justify-center items-center pt-[100px] pb-[100px] drop-shadow-lg ">
-          <div className="slider-container w-[500px] h-[500px] rounded-md ">
+        <div className="wrapper flex justify-center items-center pt-[100px] pb-[100px] drop-shadow-lg   ">
+          <div className="slider-container w-[502px] h-[502px] rounded-md border-8 border-white drop-shadow-md">
             <Slider {...settings}>
               <div className="w-[500px] h-[500px] rounded-md ">
                 <picture>
