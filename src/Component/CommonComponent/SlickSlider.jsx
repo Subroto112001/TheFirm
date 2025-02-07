@@ -76,32 +76,32 @@ const SlickSlider = () => {
       {" "}
       <div className="containers">
         <div className="wrapper flex justify-center items-center pt-[100px] pb-[100px] drop-shadow-lg   ">
-          <div className="slider-container w-[502px] h-[502px] rounded-md border-8 border-white drop-shadow-md">
+          <div className="slider-container w-[471px] h-[417px] rounded-md border-8 border-white drop-shadow-md">
             <Slider {...settings}>
-              <div className="w-[500px] h-[500px] rounded-md ">
+              <div className="w-[471px] h-[417px] rounded-md  ">
                 <picture>
                   <img
                     src={StockImage}
                     alt={StockImage}
-                    className="w-[500px] h-[500px] rounded-md"
+                    className="w-[471px] h-[417px] rounded-md"
                   />
                 </picture>
               </div>
-              <div className="w-[500px] h-[500px] rounded-md">
+              <div className="w-[471px] h-[417px] rounded-md ">
                 <picture>
                   <img
                     src={StockImage2}
                     alt={StockImage2}
-                    className="w-[500px] h-[500px] rounded-md"
+                    className="w-[471px] h-[417px] rounded-md"
                   />
                 </picture>
               </div>
-              <div className="w-[500px] h-[500px]">
+              <div className="w-[471px] h-[417px] rounded-md ">
                 <picture>
                   <img
                     src={SrockImage3}
                     alt={SrockImage3}
-                    className="w-[500px] h-[500px] rounded-md"
+                    className="w-[471px] h-[417px] rounded-md"
                   />
                 </picture>
               </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import OurHeading from "./CommonComponent/OurHeading";
 import Button from "./CommonComponent/Button";
-
+import SlickSlider from "./CommonComponent/SlickSlider";
 
 import StockImage from '../assets/StockImage.jpg'
 
@@ -48,8 +48,8 @@ const OurReasearc = () => {
               />
             </div>
             <div className="Right">
-              
-             
+            
+             <SlickSlider/>
             </div>
           </div>
         </div>

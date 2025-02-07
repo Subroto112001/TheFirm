@@ -24,7 +24,7 @@ const Frustration = () => {
   return (
     <>
       <div className="containers">
-        <div className="pt-96 pb-96 flex items-center justify-center">
+        <div className="pt-24 pb-96 flex items-center justify-center">
           <div className="left max-w-[583px]">
             <OurHeading
               StyleName={

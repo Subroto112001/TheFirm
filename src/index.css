@@ -9,6 +9,7 @@
     --SecondGrayback: #fbfbfb;
     --nunito:  "Nunito", serif;;
     --White:  #fff;;
+    --Lora:   "Lora", serif;
 }
 .containers{
     max-width: 1177px;
@@ -92,9 +93,44 @@ background-color: #facb10
 box-shadow: 0px 0px 34px 0px rgba(0,0,0,0.75);
 
    }
-  
+  .OurPartner{
+    border-radius: 100%  ;
+    -webkit-border-radius: 100%  ;
+    -moz-border-radius: 100%  ;
+    -ms-border-radius: 100%  ;
+    -o-border-radius: 100%  ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F6F6;
+    transition: all linear 0.2s ;
+    -webkit-transition: all linear 0.2s ;
+    -moz-transition: all linear 0.2s ;
+    -ms-transition: all linear 0.2s ;
+    -o-transition: all linear 0.2s ;
+}
+.borderP{
+    border-bottom: 1px black solid;
+    word-spacing: 2px;
+}
+.itemBoder{
+    border: 2px rgb(250, 202, 16, 40%) solid;
+
+}
+.hoverClass{
+    background-color: black;
+    transition: all linear 0.2s ;
+    -webkit-transition: all linear 0.2s ;
+    -moz-transition: all linear 0.2s ;
+    -ms-transition: all linear 0.2s ;
+    -o-transition: all linear 0.2s ;
+}
+.hoverClass:hover{
+    background-color: #faca10;
+}
    
 }
+
 
 @layer base{
     *{

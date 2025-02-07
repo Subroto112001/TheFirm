@@ -12,6 +12,7 @@ export default {
       },
       fontFamily: {
         Nunito: "var(--nunito)",
+        Lora: "var(--Lora)",
       },
       backgroundImage: {
         bannerBackImage: "url('/src/assets/BannerBack.png')",
