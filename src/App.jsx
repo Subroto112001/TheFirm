@@ -10,6 +10,9 @@ import PerfectSolution from "./Component/PerfectSolution"
 import OurReasearc from "./Component/OurReasearc";
 import SlickSlider from "./Component/CommonComponent/SlickSlider";
 import Ourblogs from "./Component/Ourblogs";
+import CommonSlide from "./Component/CommonSlide";
+import Branding from "./Component/Branding";
+
 const App = () => {
   return (
     <>
@@ -19,8 +22,10 @@ const App = () => {
 
       <Frustration />
       <PerfectSolution />
+      <Branding/>
       <OurReasearc />
       <Ourblogs />
+   <CommonSlide/>
     </>
   );
 };

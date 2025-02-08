@@ -128,7 +128,69 @@ box-shadow: 0px 0px 34px 0px rgba(0,0,0,0.75);
 .hoverClass:hover{
     background-color: #faca10;
 }
-   
+ .slidercard{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+} 
+.silderContent{
+  display: none;
+}
+.slick-current .sliderImg {
+  width: 204px;
+  height: 204px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(250, 203, 16, 0.404);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: relative;
+  transform: scale(1.01);
+  z-index: 1;
+  -webkit-transform: scale(1.01);
+  -moz-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  -o-transform: scale(1.01);
+  padding: 0;
+}
+.slick-current .sliderImg::after{
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 180px;
+  height: 180px;
+  padding: 12px;
+  border: 2px solid var(--button_color);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  opacity: 0.4;
+  z-index: -1;
+}
+.slick-current .sliderImg::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 18px;
+  width: 50px;
+  height: 50px;
+  background: url(./assets/tesmonial/coma.png);
+}
+.slick-current .silderContent {
+  display: block;
+  width: 840px;
+  text-align: center;
+}
+
 }
 
 
